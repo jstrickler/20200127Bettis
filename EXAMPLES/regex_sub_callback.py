@@ -16,11 +16,13 @@ officia deserunt Y45 mollit anim id est laborum"""
 rx_code = re.compile(r'(?P<letter>[A-Z])(?P<number>\d{2,3})', re.I)
 
 
-def update_code(m):  # <1>
+def update_code(m: re.Match) -> str:  # <1>
     letter = m.group('letter').upper()
     number = int(m.group('number'))
-    return '{}{:04d}'.format(letter, number)  # <2>
+    return "** " + m.group() + " **"
+    # return '{}{:04d}'.format(letter, number)  # <2>
 
 
 s2 = rx_code.sub(update_code, s)  # <3>
 print(s2)
+

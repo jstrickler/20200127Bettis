@@ -1,0 +1,114 @@
+
+
+  pat   "pat is a dog"  "the pattern failed"
+
+  p.t   "spittoon"  "keep to the right"
+
+  p[aeiouy]t
+
+  p[a-z]t  p[a-zA-Z]t
+
+  [a-zA-Z0-9_]  [0-9]   [ \t\n\r\b\f]
+  \w            \d      \s
+
+  p[^aeiou]t
+
+
+  [^a-zA-Z0-9_] [^0-9]  [^ \t\n\r\b\f]
+  \W            \D      \S
+
+   \d\d\d-\d\d-\d\d\d\d
+
+   [0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9][0-9][0-9]
+
+   \d{3}-\d{2}-\d{4}
+
+
+    {3}  {1,3} {2,}
+
+    {0,}  *
+    {1,}  +
+    {0,1} ?
+
+    pa*t   pt pat paaaaaaaaaaaaaaaaaat
+
+    pa+t    pat paaaaaaaaaaaaaaaaaat
+
+    p.*t   first 'p' through last 't' greedy
+    p.*?t  first 'p' through NEXT 't' non-greedy
+
+    "put the part on the parapet"
+
+
+  #  . * [] \ ^ $   BASIC
+
+  #  {} | ()    EXTENDED
+
+  #  \d \w \s  (?...)  PCRE
+
+    ^\d{2,}
+
+    (foo|bar)$
+
+    "ballyfoo"   "Babar"
+
+    ^\d+$     "1234"
+
+          0
+     ===========
+          1
+         ===
+    ^\s*(\d+)\s*$   "    1234   "  "  234"
+            "234   "
+
+    0-------------------
+    1      2      3
+
+    (\d\d):(\d\d):(\d\d)
+
+
+    bettis(?=\s*lab)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

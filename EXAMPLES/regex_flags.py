@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-
+from re import I, X
 import re
 
 s = """lorem ipsum M302 dolor sit amet, consectetur r99 adipiscing elit, sed do
@@ -21,9 +21,9 @@ if m:
     print("Found:", m.group())
 print()
 
-for m in re.finditer(pattern, s, re.I):
+for m in re.finditer(pattern, s, I|X):
     print(m.group())
 print()
 
-matches = re.findall(pattern, s, re.I)
+matches = re.findall(pattern, s, re.I | re.M | re.S)
 print("matches:", matches)

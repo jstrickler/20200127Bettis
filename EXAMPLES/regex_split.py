@@ -1,8 +1,7 @@
 #!/usr/bin/env python
-
 import re
 
-rx_wordsep = re.compile(r"[^a-z]+")  # <1>
+rx_wordsep = re.compile(r"[^a-z0-9]+", re.I)  # <1>
 
 s1 = '''There are 10 kinds of people in a Binary world, I hear" -- Geek talk'''
 

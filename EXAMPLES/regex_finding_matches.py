@@ -18,8 +18,9 @@ print()
 
 m = re.search(pattern, s)  # <3>
 print(m)
-if m:
-    print("Found:", m.group(0))  # <4>
+if m:  # if m is not None...
+    print("Found:", m.group(0))  # <4>  or m.group()
+    print("start:", m.start(), "end:", m.end(), m.span())
 print()
 
 for m in re.finditer(pattern, s):  # <5>
@@ -28,3 +29,6 @@ print()
 
 matches = re.findall(pattern, s)  # <6>
 print("matches:", matches)
+
+#  re.match(...) implied ^...
+#  re.fullmatch() implied ^...$
