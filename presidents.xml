@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='ASCII'?>
+<presidents>
+  <president term="1">
+    <first_name>George</first_name>
+    <last_name>Washington</last_name>
+    <party>no party</party>
+  </president>
+  <president term="2">
+    <first_name>John</first_name>
+    <last_name>Adams</last_name>
+    <party>Federalist</party>
+  </president>
+  <president term="3">
+    <first_name>Thomas</first_name>
+    <last_name>Jefferson</last_name>
+    <party>Democratic - Republican</party>
+  </president>
+  <president term="4">
+    <first_name>James</first_name>
+    <last_name>Madison</last_name>
+    <party>Democratic - Republican</party>
+  </president>
+  <president term="5">
+    <first_name>James</first_name>
+    <last_name>Monroe</last_name>
+    <party>Democratic - Republican</party>
+  </president>
+  <president term="6">
+    <first_name>John Quincy</first_name>
+    <last_name>Adams</last_name>
+    <party>Democratic - Republican</party>
+  </president>
+  <president term="7">
+    <first_name>Andrew</first_name>
+    <last_name>Jackson</last_name>
+    <party>Democratic</party>
+  </president>
+  <president term="8">
+    <first_name>Martin</first_name>
+    <last_name>Van Buren</last_name>
+    <party>Democratic</party>
+  </president>
+  <president term="9">
+    <first_name>William Henry</first_name>
+    <last_name>Harrison</last_name>
+    <party>Whig</party>
+  </president>
+  <president term="10">
+    <first_name>John</first_name>
+    <last_name>Tyler</last_name>
+    <party>Whig</party>
+  </president>
+  <president term="11">
+    <first_name>James Knox</first_name>
+    <last_name>Polk</last_name>
+    <party>Democratic</party>
+  </president>
+  <president term="12">
+    <first_name>Zachary</first_name>
+    <last_name>Taylor</last_name>
+    <party>Whig</party>
+  </president>
+  <president term="13">
+    <first_name>Millard</first_name>
+    <last_name>Fillmore</last_name>
+    <party>Whig</party>
+  </president>
+  <president term="14">
+    <first_name>Franklin</first_name>
+    <last_name>Pierce</last_name>
+    <party>Democratic</party>
+  </president>
+  <president term="15">
+    <first_name>James</first_name>
+    <last_name>Buchanan</last_name>
+    <party>Democratic</party>
+  </president>
+  <president term="16">
+    <first_name>Abraham</first_name>
+    <last_name>Lincoln</last_name>
+    <party>Republican</party>
+  </president>
+  <president term="17">
+    <first_name>Andrew</first_name>
+    <last_name>Johnson</last_name>
+    <party>Republican</party>
+  </president>
+  <president term="18">
+    <first_name>Ulysses Simpson</first_name>
+    <last_name>Grant</last_name>
+    <party>Republican</party>
+  </president>
+  <president term="19">
+    <first_name>Rutherford Birchard</first_name>
+    <last_name>Hayes</last_name>
+    <party>Republican</party>
+  </president>
+  <president term="20">
+    <first_name>James Abram</first_name>
+    <last_name>Garfield</last_name>
+    <party>Republican</party>
+  </president>
+  <president term="21">
+    <first_name>Chester Alan</first_name>
+    <last_name>Arthur</last_name>
+    <party>Republican</party>
+  </president>
+  <president term="22">
+    <first_name>Grover</first_name>
+    <last_name>Cleveland</last_name>
+    <party>Democratic</party>
+  </president>
+  <president term="23">
+    <first_name>Benjamin</first_name>
+    <last_name>Harrison</last_name>
+    <party>Republican</party>
+  </president>
+  <president term="24">
+    <first_name>Grover</first_name>
+    <last_name>Cleveland</last_name>
+    <party>Democratic</party>
+  </president>
+  <president term="25">
+    <first_name>William</first_name>
+    <last_name>McKinley</last_name>
+    <party>Republican</party>
+  </president>
+  <president term="26">
+    <first_name>Theodore</first_name>
+    <last_name>Roosevelt</last_name>
+    <party>Republican</party>
+  </president>
+  <president term="27">
+    <first_name>William Howard</first_name>
+    <last_name>Taft</last_name>
+    <party>Republican</party>
+  </president>
+  <president term="28">
+    <first_name>Woodrow</first_name>
+    <last_name>Wilson</last_name>
+    <party>Democratic</party>
+  </president>
+  <president term="29">
+    <first_name>Warren Gamaliel</first_name>
+    <last_name>Harding</last_name>
+    <party>Republican</party>
+  </president>
+  <president term="30">
+    <first_name>Calvin</first_name>
+    <last_name>Coolidge</last_name>
+    <party>Republican</party>
+  </president>
+  <president term="31">
+    <first_name>Herbert Clark</first_name>
+    <last_name>Hoover</last_name>
+    <party>Republican</party>
+  </president>
+  <president term="32">
+    <first_name>Franklin Delano</first_name>
+    <last_name>Roosevelt</last_name>
+    <party>Democratic</party>
+  </president>
+  <president term="33">
+    <first_name>Harry S.</first_name>
+    <last_name>Truman</last_name>
+    <party>Democratic</party>
+  </president>
+  <president term="34">
+    <first_name>Dwight David</first_name>
+    <last_name>Eisenhower</last_name>
+    <party>Republican</party>
+  </president>
+  <president term="35">
+    <first_name>John Fitzgerald</first_name>
+    <last_name>Kennedy</last_name>
+    <party>Democratic</party>
+  </president>
+  <president term="36">
+    <first_name>Lyndon Baines</first_name>
+    <last_name>Johnson</last_name>
+    <party>Democratic</party>
+  </president>
+  <president term="37">
+    <first_name>Richard Milhous</first_name>
+    <last_name>Nixon</last_name>
+    <party>Republican</party>
+  </president>
+  <president term="38">
+    <first_name>Gerald Rudolph</first_name>
+    <last_name>Ford</last_name>
+    <party>Republican</party>
+  </president>
+  <president term="39">
+    <first_name>James Earl 'Jimmy'</first_name>
+    <last_name>Carter</last_name>
+    <party>Democratic</party>
+  </president>
+  <president term="40">
+    <first_name>Ronald Wilson</first_name>
+    <last_name>Reagan</last_name>
+    <party>Republican</party>
+  </president>
+  <president term="41">
+    <first_name>George Herbert Walker</first_name>
+    <last_name>Bush</last_name>
+    <party>Republican</party>
+  </president>
+  <president term="42">
+    <first_name>William Jefferson 'Bill'</first_name>
+    <last_name>Clinton</last_name>
+    <party>Democratic</party>
+  </president>
+  <president term="43">
+    <first_name>George Walker</first_name>
+    <last_name>Bush</last_name>
+    <party>Republican</party>
+  </president>
+  <president term="44">
+    <first_name>Barack Hussein</first_name>
+    <last_name>Obama</last_name>
+    <party>Democratic</party>
+  </president>
+  <president term="45">
+    <first_name>Donald John</first_name>
+    <last_name>Trump</last_name>
+    <party>Republican</party>
+  </president>
+</presidents>
