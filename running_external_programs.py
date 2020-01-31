@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 from subprocess import run, PIPE, CalledProcessError
-from glob import glob
+from glob import glob  # to expand filename wildcards
 import shlex  #  for shlex.split()
 
 cmd = "netstat -an"
